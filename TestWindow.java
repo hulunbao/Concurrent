@@ -2,6 +2,7 @@
  * 模拟火车站售票窗口，开启三个窗口售票，总票数为100
  * 存在线程安全问题
  */
+ 
 class Window extends Thread{
     static int ticket = 100;
     public void run(){

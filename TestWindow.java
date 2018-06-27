@@ -3,7 +3,7 @@
  * 存在线程安全问题
  */
 
- 
+
 class Window extends Thread{
     static int ticket = 100;
     public void run(){

@@ -2,6 +2,7 @@
  *使用实现Runnable接口的方式，售票
  * 此程序存在线程安全问题:打印车票时，会出现重票，错票
  */
+ 
 class Window1 implements Runnable{
     int ticket = 100;
     public void run(){
